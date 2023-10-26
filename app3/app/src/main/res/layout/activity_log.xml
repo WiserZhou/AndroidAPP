@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:orientation="vertical"
+    tools:context="com.example.app3.logActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/zhucetitle" />
+
+    <Button
+        android:id="@+id/button_qvxiao1"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-50dp"
+        android:background="#00000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:text="账号"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-42dp"
+        android:background="@drawable/shape_search" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="密码"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-45dp"
+        android:background="@drawable/shape_search" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/zhucebutton" />
+
+</LinearLayout>

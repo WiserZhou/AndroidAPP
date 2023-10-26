@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.LoginActivity">
+
+    <ImageView
+
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back" />
+
+    <Button
+        android:id="@+id/button_qvxiao"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-50dp"
+        android:background="#00000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="登录"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+
+
+    <EditText
+        android:id="@+id/login_tele"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:text="请输入手机号码"
+        android:textColor="#C4B7B7" />
+
+    <EditText
+        android:id="@+id/login_pass"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape"
+        android:text="请输入密码"
+        android:textColor="#C4B7B7" />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="320dp"
+      android:textColor="#3291F8"
+      android:text="立即注册"/>
+    <Button
+        android:id="@+id/login_finish"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/finishx"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+</LinearLayout>

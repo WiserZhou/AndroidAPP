@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/Main_lLayoutParent"
+    android:orientation="vertical">
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/titlex" />
+
+    <ImageView
+        android:id="@+id/backx"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/back" />
+    <!--位移显示隐藏-->
+    <ImageView
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv_translate_logo"
+        android:background="@drawable/liulang_lable"
+        android:layout_width="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="-40dp"
+        android:layout_height="40dp"/>
+    <com.example.app3.MyScrollView
+        android:layout_width="match_parent"
+        android:layout_height="790dp"
+        android:background="#586C77"
+        android:id="@+id/slv"
+        android:layout_marginTop="0dp"
+        android:scrollbars="none">
+        <!-- ScorllView解决上下滑动-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/liulangimage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="-230dp"
+                android:text="流浪地球"
+                android:textColor="#ffffff"
+                android:textSize="28dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="10dp"
+                android:text="(2019)"
+                android:textColor="#ffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="30dp"
+                android:text="中国大陆/科幻 灾难/上映时间：2019-02-05（中国大陆）/片长125分钟"
+                android:textColor="#ffffff"
+                android:textSize="11dp" />
+
+            <Button
+                android:id="@+id/shoucang"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shoucang" />
+
+            <ImageView
+                android:layout_width="395dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/pingfen" />
+            <TextView
+                android:id="@+id/jianjie"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/shape_box"
+                android:text="简介                                                                      \n"/>
+            <TextView
+                android:id="@+id/neirong"
+                android:layout_width="390dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-30dp"
+                android:layout_height="wrap_content"
+                android:text='近未来，科学家们发现太阳急速衰老膨胀，短时间内包括地球在内的整个太阳系都将被太阳所吞没。为了自救，人类提出一个名为"流浪地球"的大胆计划，即倾全球之力在地球表面建造上万座发动机和转向发动机，推动地球离开太阳系，用2500年...'
+                android:textColor="#ffffff"
+                android:textSize="13dp"
+                android:background="@drawable/shape_box"
+                />
+
+            <TextView
+                android:id="@+id/zhankai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="展开"
+                android:layout_marginTop="-20dp"
+                android:layout_marginStart="360dp"
+                android:textSize="13dp"
+                android:textColor="#BEC4C7"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="演职员"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="350dp"
+                android:layout_marginTop="-20dp"
+                android:text="全部10>"
+                android:textColor="#A7B0B7"
+                android:textSize="13sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_viewy"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:text="预告片/视频评论/剧照"
+                android:textColor="#ffffff"
+                android:textSize="23sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="340dp"
+                android:layout_marginTop="-30dp"
+                android:text="全部190>"
+                android:textColor="#A7B0B7"
+                android:textSize="13sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_viewz"
+                android:layout_width="380dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="1000dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/review"/>
+        </LinearLayout>
+    </com.example.app3.MyScrollView>
+</LinearLayout>

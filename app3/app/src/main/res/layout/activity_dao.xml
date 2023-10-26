@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9F9F9"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titleqiang" />
+    <ImageView
+        android:id="@+id/backqiang"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/backqiang"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/daojianjie"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_viewdao"
+        android:layout_width="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
