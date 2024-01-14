@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--这是 XML 文件的声明，指定了 XML 版本和编码方式。-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <!--这是 <manifest> 元素，它是 Android 清单文件的根元素。xmlns:android 和 xmlns:tools 是命名空间定义，用于引入相应的命名空间。-->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
